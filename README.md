@@ -11,6 +11,8 @@ This allows viewing and analyzing signal waveforms in standard waveform viewers.
 - Supports multiple signals, tracking and writing only value changes to minimize file size.
 - Skips duplicate time entries to ensure clean waveform data.
 - Allows specifying the output timescale via a command-line switch (e.g., -t 10ps, -t 1us).
+- Added `-h` switch to include a hierarchical prefix for signal names.
+- Added `-so` ("split output") switch to generate separate output files per signal.
 
 ## CSV Input Format
 
