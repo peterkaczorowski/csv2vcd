@@ -36,11 +36,11 @@ The script supports a -t command-line option to specify the timescale unit used 
 
 Examples of usage:
 
-python csv_to_vcd.py -t 10ps input.csv output.vcd
+csv2vcd -t 10ps input.csv output.vcd
 
-python csv_to_vcd.py -t 1ns input.csv output.vcd
+csv2vcd -t 1ns input.csv output.vcd
 
-python csv_to_vcd.py input.csv output.vcd   # uses default timescale 1 us
+csv2vcd input.csv output.vcd   # uses default timescale 1 us
 
 
 ## Notes
